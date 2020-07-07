@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.classattendence.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+
+    <fragment
+        android:id="@+id/nav_subjectlist"
+        android:name="com.example.classattendence.ui.subjectlist.SubjectListFragment"
+        android:label="Subject List"
+        tools:layout="@layout/fragment_subject_list"/>
+    <fragment
+        android:id="@+id/nav_teacherlist"
+        android:name="com.example.classattendence.ui.teacherlist.TeacherListFragment"
+        android:label="Teacher List"
+        tools:layout="@layout/fragment_teacher_list"/>
+    <fragment
+        android:id="@+id/nav_viewattendence"
+        android:name="com.example.classattendence.ui.viewattendence.ViewAttendenceFragment"
+        android:label="View Attendence"
+        tools:layout="@layout/fragment_view_attendence"/>
+</navigation>

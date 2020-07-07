@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/attendenceEnrollmentNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="18700118091"/>
+    <RadioGroup
+        android:id="@+id/attendenceRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="120dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/attendencePresent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="P"/>
+        <RadioButton
+            android:id="@+id/attendenceAbsent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="A"/>
+
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/attendenceSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:minWidth="20dip"
+        android:minHeight="10dip"
+        android:text="Submit" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1078250880479",
+    "firebase_url": "https://classattendence-8d647.firebaseio.com",
+    "project_id": "classattendence-8d647",
+    "storage_bucket": "classattendence-8d647.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078250880479:android:4b7f3bc99d062fd2add86a",
+        "android_client_info": {
+          "package_name": "com.example.classattendence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078250880479-mq4gvt55ps3j7dv3dsmrctgnkv9eh59k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAui6hxshEUGEK4Xc3dO5WwpW4I57a0upY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078250880479-mq4gvt55ps3j7dv3dsmrctgnkv9eh59k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
